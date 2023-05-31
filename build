@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ ! -d run ]; then
+  mkdir run
+fi
+gcc -Wextra -Wall -Werror src/main.c -o run/ring_math
